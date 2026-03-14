@@ -30,6 +30,25 @@ python main.py
 | Hard      | 6     | Challenging|
 | Impossible| 10    | Expert     |
 
+## Outputs
+
+Here are some visual outputs from the game:
+
+### Home Screen
+![Home Screen](outputs/home.png)
+
+### Easy Level
+![Easy Level](outputs/easy%20map.png)
+
+### Medium Level
+![Medium Level](outputs/medium%20map.png)
+
+### Hard Level
+![Hard Level](outputs/hard%20map.png)
+
+### Impossible Level
+![Impossible Level](outputs/impossible%20map.png)
+
 ## Project Structure
 
 ```
@@ -44,10 +63,11 @@ SOKOBAN/
 │   ├── renderer.py      # In-game drawing
 │   └── screens.py       # Menu and completion screen
 ├── assets/
-│   ├── images/          # Tile sprites
+│   ├── images/          # Tile sprites (update PNG files here to customize game representation)
 │   └── sounds/
 ├── saves/
 │   └── progress.json    # Best scores per level
+├── outputs/             # Output files from gameplay or training
 └── tests/
     └── test_sokoban.py
 ```
